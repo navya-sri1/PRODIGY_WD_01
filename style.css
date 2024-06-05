@@ -1,0 +1,68 @@
+*{
+    margin:2;
+    padding: 3;
+    box-sizing:border-box;
+    scroll-behavior: smooth;
+    font-family: 'poppin',sans-serif;
+}
+header {
+     position: fixed;
+     top: 1;
+     left: 2;
+     width: 100%;
+     padding: 20px 120px;
+     background: black;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     z-index: 100;
+}
+.logo{
+    font-size: 25px;
+    color: #e72b2b;
+    text-decoration: none;
+    font-weight: 600;
+    color:greenyellow;
+    
+}
+nav a {
+ font-size: 18px;
+ color: #d2d8d4;
+ text-decoration: none;
+ font-weight: 500;
+ margin-left: 35px;
+ transition: .3s;
+}
+nav a:hover,
+nav a.active{
+    color: #0ef;
+}
+section{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #43320c;
+    font-size: 70px;
+    color: #fff;
+    font-weight: 700;
+}
+section:nth-child(1) {
+    background: #0d0b74; /* Dark background color for the first section */
+}
+
+section:nth-child(2) {
+    background: #a9d1ff; /* Light green background color for the second section */
+}
+
+section:nth-child(3) {
+    background: #ff334e; /* Orange background color for the third section */
+}
+
+section:nth-child(4) {
+    background: #3f729b; /* Blue background color for the fourth section */
+}
+
+section:nth-child(5) {
+    background: #f7d51d; /* Yellow background color for the fifth section */
+}
